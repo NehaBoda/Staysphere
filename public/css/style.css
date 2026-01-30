@@ -120,7 +120,13 @@ body{
 }
 
 /* maps */
-#map { height:400px; width: 80vh; }
+#map {
+    width: 100%;
+    height: 300px;
+  }
+  @media (min-width: 768px) {
+    #map { height: 400px; }
+  }
 
 /* filters */
 
@@ -166,30 +172,6 @@ body{
         align-items: center;
       }
 
-/* navbar   */
-     .btn-search{
-    background-color:#fe424d ;
-    color : white;
-    border-radius: 25px;
-    padding: 0 1rem  0 1rem;
-  }
-  
-  .btn-search:hover{
-    background-color:#fe424d ;
-    color : white;
-  }
+    
 
-  .btn-search i {
-    display: inline;
-    margin-right: 0.5rem;
-  }
-
-  .search-inp {
-    border-radius: 25px;
-    padding: 0.5rem 3rem 0.5rem 3rem;
-    font-size: 0.8rem;
-  }
-  .navbar-collapse{
-    background-color: white;
-  }
 
