@@ -1,5 +1,5 @@
 # Staysphere
-Staysphere is a full‑stack web application (eg, Airbnb) designed to simplify the way users discover, book, and manage stays. Built with scalability and user experience in mind, it integrates modern backend logic with a responsive frontend interface.
+Staysphere is a full‑stack web application  designed to simplify the way users discover, book, and manage stays. Built with scalability and user experience in mind, it integrates modern backend logic with a responsive frontend interface.
 
 - User Authentication & Authorization – Secure login and role‑based access using Passport library.
 - Dynamic Listings – Owner can add, update, and manage property details with images and pricing.
